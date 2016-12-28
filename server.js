@@ -1,10 +1,10 @@
-var express = require("express");
+bvar express = require("express");
 var app = express();
 var iotf = require('ibmiotf');
 var appConfig;
 
-var serverPort = process.env.VCAP_APP_PORT || 3000;
-var serverHost = process.env.VCAP_APP_HOST || 'localhost';
+var serverPort = process.env.PORT || 3000;
+var serverHost = '0.0.0.0' || 'localhost';
 
 if (process.env.VCAP_SERVICES) {
     var env = JSON.parse(process.env.VCAP_SERVICES);
