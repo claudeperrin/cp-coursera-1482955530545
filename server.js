@@ -1,4 +1,4 @@
-bvar express = require("express");
+var express = require("express");
 var app = express();
 var iotf = require('ibmiotf');
 var appConfig;
