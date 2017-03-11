@@ -1,6 +1,6 @@
 {
-  "name": "cpproject",
-  "version": "1.0.1",
+  "name": "cp-coursera",
+  "version": "1.0.2",
   "description": "my project",
   "main": "server.js",
   "scripts": {

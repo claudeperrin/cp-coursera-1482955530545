@@ -2,5 +2,7 @@ applications:
 - name: cp-coursera
   instances: 1
   memory: 256M
+  domain: mybluemix.net
+  host: cp-coursera
 services:
-- cp-iotp-s1
+- cp-iotp-s

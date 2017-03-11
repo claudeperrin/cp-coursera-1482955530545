@@ -10,7 +10,7 @@ if (process.env.VCAP_SERVICES) {
     var env = JSON.parse(process.env.VCAP_SERVICES);
     appConfig = {
                    'org' : env["iotf-service"][0].credentials.org,
-                   'id' : 'cp-project',
+                   'id' : 'cp-coursera',
                    'auth-key' : env["iotf-service"][0].credentials.apiKey,
                    'auth-token' : env["iotf-service"][0].credentials.apiToken
                   }
